@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-part.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-part.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part10/spring-boot-part10.iml" filepath="$PROJECT_DIR$/spring-boot-part10/spring-boot-part10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part11/spring-boot-part11.iml" filepath="$PROJECT_DIR$/spring-boot-part11/spring-boot-part11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part12/spring-boot-part12.iml" filepath="$PROJECT_DIR$/spring-boot-part12/spring-boot-part12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part13/spring-boot-part13.iml" filepath="$PROJECT_DIR$/spring-boot-part13/spring-boot-part13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part14/spring-boot-part14.iml" filepath="$PROJECT_DIR$/spring-boot-part14/spring-boot-part14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part15/spring-boot-part15.iml" filepath="$PROJECT_DIR$/spring-boot-part15/spring-boot-part15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part17/spring-boot-part17.iml" filepath="$PROJECT_DIR$/spring-boot-part17/spring-boot-part17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part18/spring-boot-part18.iml" filepath="$PROJECT_DIR$/spring-boot-part18/spring-boot-part18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part19/spring-boot-part19.iml" filepath="$PROJECT_DIR$/spring-boot-part19/spring-boot-part19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part2/spring-boot-part2.iml" filepath="$PROJECT_DIR$/spring-boot-part2/spring-boot-part2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part20/spring-boot-part20.iml" filepath="$PROJECT_DIR$/spring-boot-part20/spring-boot-part20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part21/spring-boot-part21.iml" filepath="$PROJECT_DIR$/spring-boot-part21/spring-boot-part21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part22/spring-boot-part22.iml" filepath="$PROJECT_DIR$/spring-boot-part22/spring-boot-part22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part3/spring-boot-part3/spring-boot-part3.iml" filepath="$PROJECT_DIR$/spring-boot-part3/spring-boot-part3/spring-boot-part3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part4/spring-boot-part4.iml" filepath="$PROJECT_DIR$/spring-boot-part4/spring-boot-part4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part5/spring-boot-part5.iml" filepath="$PROJECT_DIR$/spring-boot-part5/spring-boot-part5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part6/spring-boot-part6.iml" filepath="$PROJECT_DIR$/spring-boot-part6/spring-boot-part6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part7/spring-boot-part7.iml" filepath="$PROJECT_DIR$/spring-boot-part7/spring-boot-part7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part8/spring-boot-part8.iml" filepath="$PROJECT_DIR$/spring-boot-part8/spring-boot-part8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-part9/spring-boot-part9.iml" filepath="$PROJECT_DIR$/spring-boot-part9/spring-boot-part9.iml" />
+    </modules>
+  </component>
+</project>

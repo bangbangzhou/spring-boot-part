@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8" />
+    <title>异常统一处理</title>
+</head>
+<body>
+<h1>异常统一处理</h1>
+<div >
+    错误请求地址：<label th:text="${url}"></label><br/>
+    错误信息：<label th:text="${exception.message}"></label><br/>
+</div>
+
+<h1>自定义异常统一处理</h1>
+<div >
+    错误请求地址：<label th:text="${data}"></label><br/>
+    错误代码：<label th:text="${code}"></label><br/>
+    错误信息：<label th:text="${msg}"></label><br/>
+    错误时间：<label th:text="${time}"></label><br/>
+</div>
+</body>
+</html>

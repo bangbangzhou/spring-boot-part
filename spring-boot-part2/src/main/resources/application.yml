@@ -1,0 +1,9 @@
+#server:
+#  port: 8843
+#  servlet:
+#    context-path: /springweb
+#  ssl:
+#    key-store: tomcat.keystore
+#    key-store-password: password
+#    key-store-type: PKCS12
+#    key-alias: tomcat

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head >
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/css/dashboard.css}">
+    <script th:src="@{/js/jquery-3.3.1.min.js}"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+</head>
+<body>
+
+<div >
+    单个文件上传：<br/>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file"/>
+        <input type="submit" value="提交上传"/>
+    </form>
+    <h1>测试文件下载</h1> <br/>
+    <a th:href="@{/download(fileName=1.png)}">1.png</a> <br/>
+    <!--<a th:href="@{/file/download?fileName=readme.txt}">readme.txt</a> <br/>-->
+    <a th:href="@{/download(fileName=2.png)}">2.png</a> <br/>
+    <!--<a th:href="@{/file/download?fileName=项目介绍.md}">项目介绍.md</a> <br/>-->
+    <a th:href="@{/download(fileName=3.png)}">3.png</a> <br/>
+    <a th:href="@{/download(fileName=tomcat.keystore)}">tomcat.keystore</a> <br/>
+    <a th:href="@{/download(fileName=中国社会分层与教育公平_一个文献综述_洪岩璧.caj)}">caj</a> <br/>
+</div>
+
+</body>
+</html>

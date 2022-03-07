@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: part11
+  thymeleaf:
+    cache: false
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 2MB
+      max-request-size: 5MB
+# 上传的服务器上的映射文件夹
+file:
+  #静态资源对外暴露的访问路径
+  uploadAccessPath: /upload/**
+#文件上传目录（注意Linux和Windows上的目录结构不同）
+  uploadFolder: D://software/file/java/myfirst/data/
+
+server:
+  port: 8899
+  tomcat:
+    basedir:

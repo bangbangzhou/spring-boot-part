@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<div>
+    <h3>需求：学生信息</h3>
+    <table border="1" cellspacing="0">
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+            <th>语文成绩</th>
+            <th>英语成绩</th>
+            <th>总分</th>
+            <th>入学时间</th>
+        </tr>
+        <tr th:each="stu, iterStat:${stus}">
+            <td th:text="${stu.name}"></td>
+            <td th:text="${stu.age}"></td>
+            <td th:utext="${stu.sex}"></td>
+            <td th:text="${stu.cgrade}"></td>
+            <td th:text="${stu.egrade}"></td>
+            <td th:utext="(${stu.cgrade} + ${stu.egrade})"></td>
+            <td th:text="${#dates.format(stu.createtime,'yyyy-MM-dd')}"></td>
+        </tr>
+    </table>
+</div>
+
+
+request： <br/>
+<div>
+    姓名： <label th:text="${stu1.name}"></label><br/>
+    年龄：<label th:text="${stu1.age}"></label> <br/>
+    性别：<label th:text="'text = '+${stu1.sex}"></label><br/>
+    分数：<label th:text="'英语+英语=' + (${stu1.cgrade} + ${stu1.egrade})"></label><br/>
+    入学时间：<label th:utext="'utext = '+${stu1.createtime}"></label><br/>
+</div>
+session：<br/>
+<div >
+
+
+<!--    <a href="#" th:href="${/test/${session.stu2.img}}">照片1</a><br/>-->
+    <a href="#" th:href="@{/test/${session.stu2.img}}">照片1</a><br/>
+    <a href="#" th:href="@{/test/{orderId}(orderId=${session.stu2.img})}">照片2</a><br/>
+    作用域获取请求URL：<label th:text="${#request.getRequestURL()}"></label><br/>
+
+    姓名： <label th:utext="${session.stu2.name}"></label><br/>
+    年龄：<label th:utext="${session.stu2.age}"></label> <br/>
+    性别：<label th:utext="'utext = '+${session.stu2.sex}"></label><br/>
+    分数：<label th:utext="'英语+英语=' + (${session.stu2.cgrade} + ${session.stu2.egrade})"></label><br/>
+    入学时间：<label th:utext="'utext = '+${session.stu2.createtime}"></label><br/>
+
+</div>
+session：选择表达式<br/>
+<div th:object="${session.stu2}">
+    姓名：<label th:text="*{name}"></label><br/>
+    年龄：<label th:text="*{age}"></label><br/>
+    性别：<label th:text="'text = '+ *{sex}"></label><br/>
+    分数：<label th:utext="'英语+英语=' + (*{cgrade} + *{egrade})"></label><br/>
+</div>
+application：<br/>
+<div>
+    姓名：<label th:text="${application.stu3.name}"></label><br/>
+    年龄：<label th:text="${application.stu3.age}"></label><br/>
+    性别：<label th:text="'text = '+ ${application.stu3.sex}"></label><br/>
+    分数：<label th:utext="'英语+英语=' + (${application.stu3.cgrade} + ${application.stu3.egrade})"></label><br/>
+    入学时间：<label th:utext="'utext = '+${#dates.format(application.stu3.createtime,'yyyy-MM-dd HH:mm:ss')}"></label><br/>
+</div>
+判断：<br/>
+<div>
+
+</div>
+<!-- 如果条件为真，执行标签内的内容 -->
+<!--<div th:if="${stu1.name}">-->
+<!--    天天18-->
+<!--</div>-->
+<!--&lt;!&ndash; 如果添加为假，执行标签内的内容 &ndash;&gt;-->
+<!--<div th:unless="${stu1.name}">-->
+<!--    别做梦-->
+<!--</div>-->
+
+<!--逻辑运算-->
+<h4>逻辑运算</h4>
+<div th:if="${application.stu3.age gt 1 && application.stu3.age lt 21}">
+    真的18岁
+</div>
+<div th:if="${ session.stu2.age ge 21}">
+    真的不是18岁
+</div>
+<div th:if="not( ${ session.stu2.age gt 21})">
+    真的不是18岁
+</div>
+<h4>条件判断</h4>
+[1]<lable th:text="true" th:if="${application.stu3.age}"></lable><br/>
+[2]<lable th:text="'数字,非0'" th:if="${application.stu3.age}"></lable><br/>
+[3]<lable th:text="'字符串,非false、off、no'" th:if="'a'"></lable><br/>
+[4]<lable th:text="其他数据类型" th:if="${application.stu3}"></lable><br/>
+[5]<lable th:text="字符串0" th:if="'0'"></lable><br/>
+[6]<lable th:text="数字0" th:if="0"></lable><br/>
+[7]<lable th:text="false" th:if="'false'"></lable><br/>
+[8]<lable th:text="off" th:if="'off'"></lable><br/>
+[9]<lable th:text="no" th:if="'no'"></lable><br/>
+<!--swithch-->
+<h4>swithch</h4>
+<select th:switch="${application.stu3.age}">
+    <option th:case="20">20</option>
+    <option th:case="19">19</option>
+    <option th:case="21">21</option>
+</select><br/>
+<h4>三木运算</h4>
+<lable th:text="true ? '永远十八岁' : '可算是梦醒了'"><br/>
+
+</body>
+</html>

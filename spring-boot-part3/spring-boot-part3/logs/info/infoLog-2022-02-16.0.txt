@@ -1,0 +1,16 @@
+2022-02-16 19:46:49:895 [main] INFO  com.learn.springboot.SpringBootPart3Application(StartupInfoLogger.java 55) -Starting SpringBootPart3Application using Java 1.8.0_311 on USER-20211011XF with PID 14824 (D:\software\file\java\myfirst\spring-boot-part3\spring-boot-part3\target\classes started by Administrator in D:\software\file\java\myfirst\spring-boot-part3\spring-boot-part3)
+2022-02-16 19:46:49:897 [main] INFO  com.learn.springboot.SpringBootPart3Application(SpringApplication.java 641) -The following profiles are active: production
+2022-02-16 19:46:50:683 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java 108) -Tomcat initialized with port(s): 8080 (http)
+2022-02-16 19:46:50:691 [main] INFO  org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java 173) -Initializing ProtocolHandler ["http-nio-8080"]
+2022-02-16 19:46:50:692 [main] INFO  org.apache.catalina.core.StandardService(DirectJDKLog.java 173) -Starting service [Tomcat]
+2022-02-16 19:46:50:692 [main] INFO  org.apache.catalina.core.StandardEngine(DirectJDKLog.java 173) -Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-16 19:46:50:753 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java 173) -Initializing Spring embedded WebApplicationContext
+2022-02-16 19:46:50:753 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext(ServletWebServerApplicationContext.java 290) -Root WebApplicationContext: initialization completed in 815 ms
+2022-02-16 19:46:50:992 [main] INFO  org.apache.coyote.http11.Http11NioProtocol(DirectJDKLog.java 173) -Starting ProtocolHandler ["http-nio-8080"]
+2022-02-16 19:46:51:004 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer(TomcatWebServer.java 220) -Tomcat started on port(s): 8080 (http) with context path ''
+2022-02-16 19:46:51:011 [main] INFO  com.learn.springboot.SpringBootPart3Application(StartupInfoLogger.java 61) -Started SpringBootPart3Application in 1.612 seconds (JVM running for 2.436)
+2022-02-16 19:46:55:621 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/](DirectJDKLog.java 173) -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-16 19:46:55:621 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java 525) -Initializing Servlet 'dispatcherServlet'
+2022-02-16 19:46:55:622 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet(FrameworkServlet.java 547) -Completed initialization in 1 ms
+2022-02-16 19:46:55:641 [http-nio-8080-exec-1] INFO  com.learn.springboot.controller.HelloController(HelloController.java 28) -info级别的日志
+2022-02-16 19:48:50:000 [http-nio-8080-exec-4] INFO  com.learn.springboot.controller.HelloController(HelloController.java 28) -info级别的日志

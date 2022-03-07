@@ -1,0 +1,8 @@
+spring:
+  thymeleaf:
+    cache: false
+  messages:
+    basename: i18n/messages
+    cache-duration: 1800
+    encoding: UTF-8
+    fallback-to-system-locale: true

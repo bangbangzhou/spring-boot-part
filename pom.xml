@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.4</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <packaging>pom</packaging>
+
+    <groupId>com.learn.springboot</groupId>
+    <artifactId>spring-boot-part</artifactId>
+    <version>1.0.0</version>
+    <name>spring-boot-part</name>
+    <description>Demo project for Spring Boot</description>
+
+    <modules>
+        <module>spring-boot-part2</module>
+        <module>spring-boot-part3/spring-boot-part3</module>
+        <module>spring-boot-part4</module>
+        <module>spring-boot-part5</module>
+        <module>spring-boot-part6</module>
+        <module>spring-boot-part7</module>
+        <module>spring-boot-part8</module>
+        <module>spring-boot-part9</module>
+        <module>spring-boot-part10</module>
+        <module>spring-boot-part11</module>
+        <module>spring-boot-part12</module>
+        <module>spring-boot-part13</module>
+        <module>spring-boot-part14</module>
+        <module>spring-boot-part15</module>
+        <module>spring-boot-part17</module>
+        <module>spring-boot-part18</module>
+        <module>spring-boot-part19</module>
+        <module>spring-boot-part20</module>
+        <module>spring-boot-part21</module>
+        <module>spring-boot-part22</module>
+
+
+    </modules>
+
+</project>

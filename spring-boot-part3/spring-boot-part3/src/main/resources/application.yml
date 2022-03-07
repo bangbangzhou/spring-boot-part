@@ -1,0 +1,9 @@
+logging:
+  level:
+    root: info
+  file:
+    #path: F:\Java_File\myfirst\spring-boot-part3\logs
+    name: my.log
+#  pattern:
+#    console: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){yellow} %clr([%thread]){red}  %highlight(%-5level) %logger{50} -%msg%n"
+#    file: "%d{yyyy-MM-dd} == [%thread] == %highlight(%-5level) == %logger{50} == %msg%n"

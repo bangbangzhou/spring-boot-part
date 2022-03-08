@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-part11" />
         <module name="spring-boot-part10" />
+        <module name="spring-boot-part23" />
         <module name="spring-boot-part22" />
         <module name="spring-boot-part21" />
         <module name="spring-boot-part20" />
@@ -43,6 +44,7 @@
       <module name="spring-boot-part20" target="1.8" />
       <module name="spring-boot-part21" target="1.8" />
       <module name="spring-boot-part22" target="1.8" />
+      <module name="spring-boot-part23" target="1.8" />
       <module name="spring-boot-part3" target="1.8" />
       <module name="spring-boot-part4" target="1.8" />
       <module name="spring-boot-part5" target="1.8" />
@@ -67,6 +69,7 @@
       <module name="spring-boot-part20" options="-parameters" />
       <module name="spring-boot-part21" options="-parameters" />
       <module name="spring-boot-part22" options="-parameters" />
+      <module name="spring-boot-part23" options="-parameters" />
       <module name="spring-boot-part3" options="-parameters" />
       <module name="spring-boot-part4" options="-parameters" />
       <module name="spring-boot-part5" options="-parameters" />

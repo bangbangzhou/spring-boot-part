@@ -1,6 +1,7 @@
 package com.learn.springboot.advice;
 
-import com.springboot.learn.api.Result;
+
+import com.learn.springboot.api.Result;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

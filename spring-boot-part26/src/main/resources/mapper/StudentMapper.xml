@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.learn.springboot.mapper.StudentMapper">
+    <select id="findById" resultType="com.learn.springboot.entity.Student">
+        SELECT * FROM STUDENT WHERE ID = #{id}
+    </select>
+
+    <insert id="insertByObject">
+        INSERT INTO STUDENT(NAME, SEX,AGE,EMAIL,MOBILE) VALUES(#{name}, #{sex}, #{age}, #{email}, #{mobile})
+    </insert>
+
+    <update id="updateStudent" parameterType="com.learn.springboot.entity.Student">
+       UPDATE STUDENT SET NAME=#{name},SEX=#{sex},AGE=#{age},EMAIL=#{email},MOBILE=#{mobile} WHERE id=#{id}
+    </update>
+
+    <delete id="deleteStudent" >
+      DELETE FROM student WHERE  id=#{id}
+    </delete>
+
+</mapper>

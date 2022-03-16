@@ -14,26 +14,27 @@
         <module name="spring-boot-part22" />
         <module name="spring-boot-part21" />
         <module name="spring-boot-part20" />
-        <module name="spring-boot-part30" />
-        <module name="spring-boot-part28" />
+        <module name="spring-boot-part31" />
         <module name="spring-boot-part11" />
         <module name="spring-boot-part9" />
         <module name="spring-boot-part8" />
-        <module name="spring-boot-part7" />
+        <module name="spring-boot-part30" />
         <module name="spring-boot-part6" />
         <module name="spring-boot-part5" />
         <module name="spring-boot-part4" />
         <module name="spring-boot-part3" />
         <module name="spring-boot-part2" />
+        <module name="spring-boot-part7" />
         <module name="spring-boot-part10" />
-        <module name="spring-boot-part13" />
+        <module name="spring-boot-part12" />
         <module name="spring-boot-part19" />
         <module name="spring-boot-part18" />
         <module name="spring-boot-part17" />
+        <module name="spring-boot-part29" />
         <module name="spring-boot-part15" />
         <module name="spring-boot-part14" />
-        <module name="spring-boot-part29" />
-        <module name="spring-boot-part12" />
+        <module name="spring-boot-part13" />
+        <module name="spring-boot-part28" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -60,6 +61,7 @@
       <module name="spring-boot-part29" target="1.8" />
       <module name="spring-boot-part3" target="1.8" />
       <module name="spring-boot-part30" target="1.8" />
+      <module name="spring-boot-part31" target="1.8" />
       <module name="spring-boot-part4" target="1.8" />
       <module name="spring-boot-part5" target="1.8" />
       <module name="spring-boot-part6" target="1.8" />
@@ -92,6 +94,7 @@
       <module name="spring-boot-part29" options="-parameters" />
       <module name="spring-boot-part3" options="-parameters" />
       <module name="spring-boot-part30" options="-parameters" />
+      <module name="spring-boot-part31" options="-parameters" />
       <module name="spring-boot-part4" options="-parameters" />
       <module name="spring-boot-part5" options="-parameters" />
       <module name="spring-boot-part6" options="-parameters" />

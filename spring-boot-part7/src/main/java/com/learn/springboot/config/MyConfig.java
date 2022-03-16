@@ -25,10 +25,10 @@ public class MyConfig implements WebMvcConfigurer {
         return localeResolver;
     }
 
-    @Bean
-    public LocaleResolver localeResolver() {
-        SessionLocaleResolver slr = new SessionLocaleResolver();
-        slr.setDefaultLocale(Locale.SIMPLIFIED_CHINESE);
-        return slr;
-    }
+//    @Bean
+//    public LocaleResolver localeResolver() {
+//        SessionLocaleResolver slr = new SessionLocaleResolver();
+//        slr.setDefaultLocale(Locale.SIMPLIFIED_CHINESE);
+//        return slr;
+//    }
 }

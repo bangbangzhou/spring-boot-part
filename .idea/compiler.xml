@@ -6,14 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-part11" />
-        <module name="spring-boot-part10" />
+        <module name="spring-boot-part27" />
+        <module name="spring-boot-part26" />
         <module name="spring-boot-part25" />
         <module name="spring-boot-part24" />
         <module name="spring-boot-part23" />
         <module name="spring-boot-part22" />
         <module name="spring-boot-part21" />
         <module name="spring-boot-part20" />
+        <module name="spring-boot-part30" />
+        <module name="spring-boot-part28" />
+        <module name="spring-boot-part11" />
         <module name="spring-boot-part9" />
         <module name="spring-boot-part8" />
         <module name="spring-boot-part7" />
@@ -22,12 +25,14 @@
         <module name="spring-boot-part4" />
         <module name="spring-boot-part3" />
         <module name="spring-boot-part2" />
+        <module name="spring-boot-part10" />
+        <module name="spring-boot-part13" />
         <module name="spring-boot-part19" />
         <module name="spring-boot-part18" />
         <module name="spring-boot-part17" />
         <module name="spring-boot-part15" />
         <module name="spring-boot-part14" />
-        <module name="spring-boot-part13" />
+        <module name="spring-boot-part29" />
         <module name="spring-boot-part12" />
       </profile>
     </annotationProcessing>
@@ -49,7 +54,12 @@
       <module name="spring-boot-part23" target="1.8" />
       <module name="spring-boot-part24" target="1.8" />
       <module name="spring-boot-part25" target="1.8" />
+      <module name="spring-boot-part26" target="1.8" />
+      <module name="spring-boot-part27" target="1.8" />
+      <module name="spring-boot-part28" target="1.8" />
+      <module name="spring-boot-part29" target="1.8" />
       <module name="spring-boot-part3" target="1.8" />
+      <module name="spring-boot-part30" target="1.8" />
       <module name="spring-boot-part4" target="1.8" />
       <module name="spring-boot-part5" target="1.8" />
       <module name="spring-boot-part6" target="1.8" />
@@ -76,7 +86,12 @@
       <module name="spring-boot-part23" options="-parameters" />
       <module name="spring-boot-part24" options="-parameters" />
       <module name="spring-boot-part25" options="-parameters" />
+      <module name="spring-boot-part26" options="-parameters" />
+      <module name="spring-boot-part27" options="-parameters" />
+      <module name="spring-boot-part28" options="-parameters" />
+      <module name="spring-boot-part29" options="-parameters" />
       <module name="spring-boot-part3" options="-parameters" />
+      <module name="spring-boot-part30" options="-parameters" />
       <module name="spring-boot-part4" options="-parameters" />
       <module name="spring-boot-part5" options="-parameters" />
       <module name="spring-boot-part6" options="-parameters" />

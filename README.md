@@ -56,16 +56,19 @@
 
  [SpringBoot-25-SpringBoot整合Swagger2以及Swagger-Bootstrap-Ui的使用](https://mp.weixin.qq.com/s/DkoQKzYfei0r3KV08XHX6Q)
 
- [SpringBoot-26-缓存Ehcache的使用](https://mp.weixin.qq.com/s?__biz=MzIzMjIyNTYwNg==&mid=2247484554&idx=1&sn=77480c52182a45c9e9d38f0a4a2b2d08&chksm=e8996aa3dfeee3b509ea0e706b2a5cfa8ee15253f435051f64c5fb4620a96d46cfb5b320c7d1#rd)
+ [SpringBoot-26-缓存Ehcache的使用](https://mp.weixin.qq.com/s/dXnQA4aTEAnUoclm30XQdQ)
 
- [SpringBoot-27- @Async实现异步调用 什么是异步调用 ](https://mp.weixin.qq.com/s?__biz=MzIzMjIyNTYwNg==&mid=2247484568&idx=1&sn=e7f0016ccc66e57c03d16165230857ea&chksm=e8996ab1dfeee3a744f90070374c309d6197cb4d5d4d6c9b9cb1aeebe24317577cf6310e4234#rd)
+ [SpringBoot-27- @Async实现异步调用 什么是异步调用 ](https://mp.weixin.qq.com/s/tX2zOU_hkOt7pvIMk3lLuw)
 
- [SpringBoot-28-RestTemplate基本介绍](https://mp.weixin.qq.com/s?__biz=MzIzMjIyNTYwNg==&mid=2247484577&idx=1&sn=3706107b86fc011bb0627b380ead5b7b&chksm=e8996a88dfeee39ef1abb5a4f86f48fadfa641b0437e9327eaa73ccc7c8b84e079e7deaae72b#rd)
+ [SpringBoot-28-RestTemplate基本介绍](https://mp.weixin.qq.com/s/jRWL2ebc2v73Y-MDSzdL8w)
 
-[SpringBoot-29-RestTemplate的Get请求使用详解 ](https://mp.weixin.qq.com/s?__biz=MzIzMjIyNTYwNg==&mid=2247484593&idx=1&sn=5ec8bd69b5be89cca6604f4477a9630e&chksm=e8996a98dfeee38ea1c99504390e52d7885ae162b9ae397a930be3491d13a04c056988c38fa5#rd)
+[SpringBoot-29-RestTemplate的Get请求使用详解 ](https://mp.weixin.qq.com/s/tPHWZOgbPKLCOiCzhA3ikg)
 
-[SpringBoot-30-RestTemplate的Post详解](https://mp.weixin.qq.com/s?__biz=MzIzMjIyNTYwNg==&mid=2247484604&idx=1&sn=d9a1f7a983af804ed68caa59be02ffd0&chksm=e8996a95dfeee383ae8d9b48dad0ffbd8da12e414436abf4eeabc2f54db0daef6b440ac28956#rd)
+[SpringBoot-30-RestTemplate的Post详解](https://mp.weixin.qq.com/s/SvI0JAFGfqxbmtK6MHZvhA)
 
+[SpringBoot-31-注解详解-1](https://mp.weixin.qq.com/s/lkXVwULgMDqtvPUrgnLHeA)
+
+[SpringBoot-32-常用注解汇总2](https://mp.weixin.qq.com/s/tSBpdzpYVWSZlGO-IDWdBQ)
 ## Docker入门
 
 [云计算--Docker在Ubuntu上安装](https://mp.weixin.qq.com/s?__biz=MzIzMjIyNTYwNg==&mid=2247484427&idx=3&sn=0a05798b247fa4d7175b703fb83fadff&chksm=e8996a22dfeee33411b2881e4b9a9041cd4c355f7fd7865833961593eff83892122a00d36871&token=1578645039&lang=zh_CN#rd)

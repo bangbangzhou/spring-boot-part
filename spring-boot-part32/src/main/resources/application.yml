@@ -1,0 +1,10 @@
+server:
+  port: 8888
+
+
+uid:
+  epochStr: 'yml'
+  timeBits: 30
+  workerBits: 32
+  seqBits: 1
+

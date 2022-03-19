@@ -81,4 +81,4 @@
 [云计算-6-Dockerfile制作镜像](https://mp.weixin.qq.com/s?__biz=MzIzMjIyNTYwNg==&mid=2247484593&idx=2&sn=ef6a9ea0a83e3e74a5e9a0eb58777457&chksm=e8996a98dfeee38e1690ca97c517fa15a5d0841db825e5c97efbe3cbfc46e9a13bbf776d0e3e#rd)
 
 ### 微信公众号
-![](https://github.com/bangbangzhou/spring-boot-part/blob/main/doc/qrcode_for_gh_b45fe0876d00_430.jpg)
+ ![](https://github.com/bangbangzhou/spring-boot-part/blob/main/doc/qrcode_for_gh_b45fe0876d00_430.jpg)
